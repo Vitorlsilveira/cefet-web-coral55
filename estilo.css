@@ -1,6 +1,10 @@
 /* Importa o arquivo CSS que importa a fonte Ravie */
 @import "fonts/ravie.css";
 
+body{
+    margin: 0;
+}
+
 main{
     position: relative;
     margin: 0 auto;
@@ -52,7 +56,7 @@ main section aside#lateral h2{
     font-weight: bold;
     transform: rotate(270deg);
     position: absolute;
-    top: 270px;
+    top: 300px;
 }
 
 main section aside#lateral img[src*='siri']{
@@ -92,6 +96,9 @@ main section article h3:first-child{
     margin-top: 5px;
 }
 
+main section article p:last-child{
+    margin-bottom: 40px;
+}
 main section article p {
     font-size: 14pt; 
     margin: 0;
