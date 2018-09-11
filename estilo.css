@@ -1,2 +1,124 @@
 /* Importa o arquivo CSS que importa a fonte Ravie */
 @import "fonts/ravie.css";
+
+main{
+    position: relative;
+    margin: 0 auto;
+    width: 800px;
+    background-image: linear-gradient(180deg,#f6f1b2, #4599b2);
+    border: solid 1px #d3d3d3;
+}
+
+main header h1{
+    font-family: "Ravie";
+    font-size: 36px;
+    color: #e90c0c;
+    text-align: center;
+    padding-left: 80px;
+    margin-bottom: 5px;
+}
+
+main header h2{
+    font-family: "Trebuchet MS";
+    font-size: 24px;
+    color: #333;
+    text-align: right;
+    margin: 0px 115px 5px 0px;
+}
+
+main header h2 em{
+    color: #d027aa;
+    font-style: normal;
+}
+
+main section{
+    display: flex;
+    flex-direction: row;
+    font-family: "Verdana";
+    color: #333;
+  }
+
+main section aside#lateral{
+    width: 154px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+ 
+}
+
+main section aside#lateral h2{
+    font-size: 48px;
+    font-weight: bold;
+    transform: rotate(270deg);
+    position: absolute;
+    top: 270px;
+}
+
+main section aside#lateral img[src*='siri']{
+    position: absolute;
+    top: 7px;
+    left: -10px;
+}
+
+main section aside#lateral img[src*='bolhas']{
+    position: absolute;
+    left: 48px;
+    bottom: 124px;
+}
+
+main section aside#lateral img[src*='peixe']{
+    position: absolute;
+    bottom: 0px;
+    left: -44px;
+}
+
+main section article{
+    width: 646px;
+    background-color: rgba(255, 255, 255, 0.2);
+    border: solid 1px #aac0ae;
+    box-sizing: border-box;
+    padding: 15px;
+    line-height: 2em;
+}
+
+main section article h3{
+    font-size: 18pt;
+    font-weight: bold;
+    margin-bottom: 0px;  
+}
+
+main section article h3:first-child{
+    margin-top: 5px;
+}
+
+main section article p {
+    font-size: 14pt; 
+    margin: 0;
+}
+
+main section article p span{
+    float: right;
+} 
+
+main footer{
+    text-align: right;
+}
+
+main footer img{
+    position: relative;
+    margin-top: 46px;
+    right: 15px;
+    margin-bottom: 25px;
+}
+
+body aside img[src*='ticket']{
+    position: fixed;
+    top: 295px;
+    left: -69px;
+    transition: left 100ms ease-out;
+}
+
+body aside img[src*='ticket']:hover{
+    left: 0px;
+}
